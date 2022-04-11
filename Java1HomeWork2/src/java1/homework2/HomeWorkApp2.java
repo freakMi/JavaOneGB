@@ -8,7 +8,7 @@ public class HomeWorkApp2 {
         checkPositiveOrNegative(0);
         System.out.println("Is it a negative number?: " + numberIsNegative(-3));
         printPhrase("Simplicity is the ultimate sophistication", 5);
-        System.out.println("Is this a leap year?: " + leapYear(1111));
+        System.out.println("Is this a leap year?: " + leapYear(2000));
     }
 
     public static boolean sumBetween10and20(int value1, int value2) {
