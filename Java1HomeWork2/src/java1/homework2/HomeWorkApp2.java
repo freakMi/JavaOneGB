@@ -12,11 +12,7 @@ public class HomeWorkApp2 {
     }
 
     public static boolean sumBetween10and20(int value1, int value2) {
-        if ((value1 + value2) >= 10 && (value1 + value2) <= 20) {
-            return true;
-        } else {
-            return false;
-        }
+        return ((value1 + value2) >= 10 && (value1 + value2) <= 20);
     }
 
     public static void checkPositiveOrNegative(int number) {
@@ -28,11 +24,7 @@ public class HomeWorkApp2 {
     }
 
     public static boolean numberIsNegative(int a) {
-        if (a < 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return (a < 0);
     }
 
     public static void printPhrase(String phrase, int count) {
@@ -42,10 +34,7 @@ public class HomeWorkApp2 {
     }
 
     public static boolean leapYear(int year) {
-        if (year > 0 && (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)) {
-            return true;
-        } else {
-            return false;
-        }
+        return (year > 0 && (year % 4 == 0 && year % 100 != 0 || year % 400 == 0));
     }
 }
+
